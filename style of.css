@@ -1,0 +1,155 @@
+body {
+    background-image: url('cloud.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+h1{
+    margin-left: 3%;
+    color: #2c2b2b;
+    font-style: oblique;
+}
+nav  {
+    justify-content: space-between;
+    background: rgb(181, 189, 187);
+    height: 75px;
+    padding: 0 20px;
+}
+.logo {
+    color: rgb(12, 10, 10);
+    font-size: 25px;
+    font-style: oblique;}
+nav:hover {
+    color: rgb(185, 51, 27);
+
+.logo {
+    color: rgb(44, 131, 202);
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-top: 42px;
+}
+}
+
+.link-box {
+    font-size: 14px;
+    text-align: right;
+    margin-right: 12%;
+}
+
+.link-box a {
+    font-size: 19px;
+    font-style: oblique;
+    text-decoration: none;
+    color: #0e0b0b;
+    font-weight: bold;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+
+.link-box a:hover {
+    color: #a54d13;
+}
+
+.content {
+    width: 100%;
+    top: 50%;
+    color: rgb(14, 9, 14);
+    text-align: center;
+}
+
+.content h1{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+   'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 60px;
+    text-align: center;
+    margin-left:2%; 
+    color: rgb(29, 29, 27);
+}
+.content h1:hover{
+    color: rgb(1, 1, 15);
+}
+
+
+.content p{
+    color:rgb(19, 18, 18) ;
+    margin: 20px auto;
+        font-weight: 100;
+        font-size:25px;
+        font-style: oblique;
+    }
+ 
+.myy-link {
+    margin-left: 43%;
+    color: #747070;
+    font-size: 25px;
+    position: relative;
+    text-decoration: none; 
+}
+.myy-link:hover{
+    color: #e0481a;
+}
+
+.myy-link::before {
+    content: "click tocontact";
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #535353;
+    padding: 6px;
+    border-radius: 3px;
+    font-size: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+
+.myy-link:hover::before {
+    font-size: 15px;
+    margin-top:30%;
+    margin-left: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.image-container {
+    display: flex;
+    align-items: center;
+}
+
+.image-container img {
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10px;
+    width: 12%;
+}
+
+.my-container{
+    text-transform: uppercase;
+}
+.my-container a{
+    margin-left: 21%;
+    color: #3b3838;
+    font-weight: bold;
+text-decoration: none;
+}
+.my-container a:hover{
+    color: #ac4e0f;
+}
+
+footer {
+    font-size: 23px;
+    color: #0c0707;
+    font-weight: bold;
+    margin-left: 32%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+
+    
